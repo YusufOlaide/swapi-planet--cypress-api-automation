@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "required": [
+    "name",
+    "rotation_period",
+    "orbital_period",
+    "diameter",
+    "climate",
+    "gravity",
+    "terrain",
+    "surface_water",
+    "population",
+    "residents",
+    "films",
+    "created",
+    "edited",
+    "url"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "The name schema",
+      "description": "An explanation about the purpose of this instance."
+    },
+    "rotation_period": {
+      "type": "string",
+      "title": "The rotation_period schema",
+      "description": "An explanation about the purpose of this instance."
+    },
+    "orbital_period": {
+      "type": "string",
+      "title": "The orbital_period schema",
+      "description": "An explanation about the purpose of this instance."
+    },
+    "diameter": {
+      "type": "string",
+      "title": "The diameter schema",
+      "description": "An explanation about the purpose of this instance."
+    },
+    "climate": {
+      "type": "string",
+      "title": "The climate schema",
+      "description": "An explanation about the purpose of this instance."
+    },
+    "gravity": {
+      "type": "string",
+      "title": "The gravity schema",
+      "description": "An explanation about the purpose of this instance."
+    },
+    "terrain": {
+      "type": "string",
+      "title": "The terrain schema",
+      "description": "An explanation about the purpose of this instance."
+    },
+    "surface_water": {
+      "type": "string",
+      "title": "The surface_water schema",
+      "description": "An explanation about the purpose of this instance."
+    },
+    "population": {
+      "type": "string",
+      "title": "The population schema",
+      "description": "An explanation about the purpose of this instance."
+    },
+    "residents": {
+      "type": "array",
+      "title": "The residents schema",
+      "description": "An explanation about the purpose of this instance.",
+      "items": {}
+    },
+    "films": {
+      "type": "array",
+      "title": "The films schema",
+      "description": "An explanation about the purpose of this instance.",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance."
+          }
+        ]
+      }
+    },
+    "created": {
+      "type": "string",
+      "title": "The created schema",
+      "description": "An explanation about the purpose of this instance."
+    },
+    "edited": {
+      "type": "string",
+      "title": "The edited schema",
+      "description": "An explanation about the purpose of this instance."
+    },
+    "url": {
+      "type": "string",
+      "title": "The url schema",
+      "description": "An explanation about the purpose of this instance."
+    }
+  }
+}
+

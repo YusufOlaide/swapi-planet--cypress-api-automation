@@ -1,0 +1,16 @@
+{
+  "name": "swapi",
+  "version": "1.0.0",
+  "description": "Swapi Test Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed"
+  },
+  "author": "Yusuf Olaide Yusuf",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^8.10.0",
+    "cypress": "^9.5.0"
+  }
+}
